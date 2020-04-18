@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositorie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonRepository.Interface", "src\Repositories\PersonRepository.Interface\PersonRepository.Interface.csproj", "{1C22418B-9871-4AF7-AD45-D0B763D0D99E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonRepository.Service", "src\Repositories\PersonRepository.Service\PersonRepository.Service.csproj", "{99782E1C-FBEF-4FEA-A5CD-38BB179418CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,9 +36,22 @@ Global
 		{1C22418B-9871-4AF7-AD45-D0B763D0D99E}.Release|x64.Build.0 = Release|Any CPU
 		{1C22418B-9871-4AF7-AD45-D0B763D0D99E}.Release|x86.ActiveCfg = Release|Any CPU
 		{1C22418B-9871-4AF7-AD45-D0B763D0D99E}.Release|x86.Build.0 = Release|Any CPU
+		{99782E1C-FBEF-4FEA-A5CD-38BB179418CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99782E1C-FBEF-4FEA-A5CD-38BB179418CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99782E1C-FBEF-4FEA-A5CD-38BB179418CD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{99782E1C-FBEF-4FEA-A5CD-38BB179418CD}.Debug|x64.Build.0 = Debug|Any CPU
+		{99782E1C-FBEF-4FEA-A5CD-38BB179418CD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{99782E1C-FBEF-4FEA-A5CD-38BB179418CD}.Debug|x86.Build.0 = Debug|Any CPU
+		{99782E1C-FBEF-4FEA-A5CD-38BB179418CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99782E1C-FBEF-4FEA-A5CD-38BB179418CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99782E1C-FBEF-4FEA-A5CD-38BB179418CD}.Release|x64.ActiveCfg = Release|Any CPU
+		{99782E1C-FBEF-4FEA-A5CD-38BB179418CD}.Release|x64.Build.0 = Release|Any CPU
+		{99782E1C-FBEF-4FEA-A5CD-38BB179418CD}.Release|x86.ActiveCfg = Release|Any CPU
+		{99782E1C-FBEF-4FEA-A5CD-38BB179418CD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{AE0F2D72-BF28-428D-8CBD-2F515FD45786} = {D75CCCCF-450B-4083-ADF7-E492BC2547CC}
 		{1C22418B-9871-4AF7-AD45-D0B763D0D99E} = {AE0F2D72-BF28-428D-8CBD-2F515FD45786}
+		{99782E1C-FBEF-4FEA-A5CD-38BB179418CD} = {AE0F2D72-BF28-428D-8CBD-2F515FD45786}
 	EndGlobalSection
 EndGlobal
