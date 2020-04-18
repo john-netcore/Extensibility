@@ -7,7 +7,7 @@ namespace PersonRepository.Interface
         IEnumerable<Person> GetPeople();
         Person GetPerson(int id);
         void AddPerson(Person newPerson);
-        void UpdatePerson(int id, Person updatePerson);
+        void UpdatePerson(Person updatedPerson);
         void DeletePerson(int id);
     }
 }
