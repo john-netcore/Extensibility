@@ -1,11 +1,11 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using PersonRepository.Interface;
+using PersonRepository.Service;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace PersonRepository.Service.Tests
+namespace PersonRepository.Tests
 {
     public class PersonRepositoryServiceShould
     {
@@ -21,12 +21,12 @@ namespace PersonRepository.Service.Tests
         {
             IPersonRepository sut = new ServiceRepository();
 
-            List<Person> persons = sut.GetPeople().ToList();
+            IEnumerable<Person> persons = sut.GetPeople();
             foreach (var person in persons)
             {
                 _output.WriteLine(person.Id + " " + person.FirstName);
             }
-            Assert.Equal(10, persons.Count());
+            Assert.IsType<ServiceRepository>(sut);
         }
     }
 }

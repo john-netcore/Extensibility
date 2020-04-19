@@ -13,7 +13,7 @@
     <PackageReference Include="coverlet.collector" Version="1.0.1" />
   </ItemGroup>
 
-  <ItemGroup>
+    <ItemGroup>
     <ProjectReference Include="..\..\src\Repositories\PersonRepository.Service\PersonRepository.Service.csproj" />
     <ProjectReference Include="..\..\src\Repositories\PersonRepository.Interface\PersonRepository.Interface.csproj" />
   </ItemGroup>
