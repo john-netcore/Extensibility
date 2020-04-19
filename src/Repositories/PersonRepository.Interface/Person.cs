@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace PersonRepository.Interface
+﻿namespace PersonRepository.Interface
 {
     public class Person
     {

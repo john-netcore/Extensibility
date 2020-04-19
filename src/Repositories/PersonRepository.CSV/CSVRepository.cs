@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
+using System.Linq;
 using CsvHelper;
 using PersonRepository.Interface;
 
@@ -20,7 +21,8 @@ namespace PersonRepository.CSV
                 {
                     using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
                     {
-                        result = csv.GetRecords<Person>();
+                        //Must convert it to a list otherwise the content is not available after the using statement.
+                        result = csv.GetRecords<Person>().ToList();
                     }
                 }
             }
