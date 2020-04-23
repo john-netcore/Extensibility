@@ -14,9 +14,10 @@
   </ItemGroup>
 
     <ItemGroup>
-    <ProjectReference Include="..\..\src\Repositories\PersonRepository.CSV\PersonRepository.CSV.csproj" />
-    <ProjectReference Include="..\..\src\Repositories\PersonRepository.Service\PersonRepository.Service.csproj" />
+    <!-- <ProjectReference Include="..\..\src\Repositories\PersonRepository.CSV\PersonRepository.CSV.csproj" />
+    <ProjectReference Include="..\..\src\Repositories\PersonRepository.Service\PersonRepository.Service.csproj" /> -->
     <ProjectReference Include="..\..\src\Repositories\PersonRepository.Interface\PersonRepository.Interface.csproj" />
+    <ProjectReference Include="..\..\src\Repositories\PersonRepository.Factory\PersonRepository.Factory.csproj" />
   </ItemGroup>
 
 </Project>
